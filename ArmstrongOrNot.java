@@ -6,7 +6,7 @@ public class ArmstrongOrNot{
     Scanner sc = new Scanner(System.in);
     int n;
     System.out.println("enter number");
-    n = sc.nextInt();
+    n = Integer.parseInt(args[0]);
     boolean b = ca.isArmstrong(n);
     if(b)
       System.out.println(n+" is a armstrong number");
