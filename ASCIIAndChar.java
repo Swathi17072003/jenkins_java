@@ -5,7 +5,7 @@ public class ASCIIAndChar {
 		
 		for(i = 0; i <= 255; i++)
 		{
-			System.out.println(" The ASCII value of " + (char)i + "  =  " + i);
+			System.out.println(" The ASCII value of " +(char)i + "  =  " + i);
 		}
 	}
 }
