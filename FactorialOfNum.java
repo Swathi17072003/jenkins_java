@@ -6,8 +6,8 @@ public class FactorialOfNum{
     FindFactorial ff = new FindFactorial();
     Scanner sc = new Scanner(System.in);
     int num;
-    System.out.println("enter the num");
-    num = sc.nextInt();
+    //System.out.println("enter the num");
+    num = Integer.parseInt(args[0]);
     int fact_num=ff.factorial(num);
     System.out.println("factorial of "+num+" is "+fact_num);
   }
